@@ -58,7 +58,8 @@
 // Filament Runout Sensor
 //
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN   P1_28
+//#define FIL_RUNOUT_PIN   P1_28
+  #define FIL_RUNOUT_PIN   P1_24 //Z+ Endstop
 #endif
 
 //
@@ -197,7 +198,8 @@
  *              EXP2                                              EXP1
  */
 #if HAS_SPI_LCD
-  #define BEEPER_PIN       P1_30   // (37) not 5V tolerant
+  #define BEEPER_PIN       -1   // (37) not 5V tolerant
+//#define BEEPER_PIN       P1_30   // (37) not 5V tolerant
   #define BTN_ENC          P0_28   // (58) open-drain
 
   #if ENABLED(CR10_STOCKDISPLAY)
