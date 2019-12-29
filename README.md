@@ -28,7 +28,7 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 
 ----------
 
-**This firmware is NOT maintained by Marlin. This is meant to be a personal fork/branch to contain my specific 3d printer configuration that will never be merged back upstream, but rather provides me the ability to make my own custom changes while merging in upstream Marlin 2.0.x bugfix updates**
+**This firmware is NOT maintained by Marlin. This is meant to be a personal fork/branch to contain my specific 3d printer configuration that will never be merged back upstream, but rather provides me the ability to make my own custom changes while merging in upstream Marlin 2.0.x updates**
 
 ----------
 
