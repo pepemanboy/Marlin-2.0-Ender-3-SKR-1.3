@@ -1046,9 +1046,9 @@
  */
 
 // Turbo mode from settings in comments in https://www.youtube.com/watch?v=pgM_I4NbmLY&lc=z23be3lqpzjdu5ojd04t1aokg3dcoavkrbbaj1ko15vcrk0h00410.1558535861296642
-#define Z_CLEARANCE_DEPLOY_PROBE    4 // Z Clearance for Deploy/Stow
-#define Z_CLEARANCE_BETWEEN_PROBES  3 // Z Clearance between probe points - Super aggressive testing setting
-#define Z_CLEARANCE_MULTI_PROBE     3 // Z Clearance between multiple probes
+#define Z_CLEARANCE_DEPLOY_PROBE    10 // Z Clearance for Deploy/Stow
+#define Z_CLEARANCE_BETWEEN_PROBES  5 // Z Clearance between probe points - Super aggressive testing setting
+#define Z_CLEARANCE_MULTI_PROBE     5 // Z Clearance between multiple probes
 #define Z_AFTER_PROBING             5 // Z position after probing is done
 
 #define Z_PROBE_LOW_POINT          -2 // Farthest distance below the trigger-point to go before stopping
