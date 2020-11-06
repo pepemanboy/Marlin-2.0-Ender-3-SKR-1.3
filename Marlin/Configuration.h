@@ -1414,7 +1414,7 @@
 #endif
 
 // Homing speeds (mm/min)
-#define HOMING_FEEDRATE_XY (50*60)  // (was 20*60)
+#define HOMING_FEEDRATE_XY (20*60)  
 #define HOMING_FEEDRATE_Z  (30*60)  // As Per Ilya Tsaryuk who did testing with Bltouch clone and homing feedrate accuracy.
 
 // Validate that endstops are triggered on homing moves
