@@ -94,7 +94,7 @@
 //
 #if HAS_WIRED_LCD && DISABLED(LCD_USE_I2C_BUZZER)
   #define BEEPER_PIN                       P1_30  // (37) not 5V tolerant
-#endif
+  #define BEEPER_PIN                       -1  // Disable Beeper
 
 //
 // SD Support
