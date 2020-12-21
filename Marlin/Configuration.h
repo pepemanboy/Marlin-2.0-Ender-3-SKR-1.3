@@ -756,9 +756,10 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 867 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 830 }
 // My Titan ESteps appear to be 440 with 1.8deg
-// Upgraded E Motor to 0.9 deg motor + PTFE guid - 867 Esteps
+// Upgraded E Motor to 0.9 deg motor + PTFE guide - 867 Esteps
+// 2020-12-20 - Changed to TriangleLabs BMG. ESTEPS = 415x2 = 830
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1003,7 +1004,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -43, -5, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -41.2, -4.5, 0 }
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.

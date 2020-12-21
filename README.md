@@ -1,5 +1,7 @@
 **Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
 
+December 20, 2020 - Changed TriangleLabs Titan to TriangleLabs BMG
+
 October 2019 - Changed drivers out to TMC2209.
 
 5/20/2019 - Been tweaking this a bit.  I played with the accelerations, but have decided just to stick with and copy the Prusa MK3 default acceleration settings.  I have enabled a hidden BLTouch HighSpeed mode, gone aggressive with BLTouch probing.  Also changed from Petsfang Titan Direct to this one: https://www.thingiverse.com/thing:3594559, and went with a 0.9 Deg LDO Extruder motor
@@ -21,10 +23,10 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 * SKR V1.3 Mainboard (32-bit)
 * Bigtreetech TMC2209 V1.2 on X, Y, Z and E via UART in Stealthchop
 * Stock Creality Hotend with [TH3D Titanium All-Metal Heatbreak](https://www.th3dstudio.com/product/tough-titanium-heatbreak-for-creality-machines-tough-dual-hotend/)
-* [Creality Direct Drive for Stock/Microswiss Hotend and Titan Extruder](https://www.thingiverse.com/thing:3594559)
+* [Creality Direct Drive for Stock/Microswiss Hotend and BMG](https://www.thingiverse.com/thing:3781222)
 * Original BLTouch V3.0 using the left-side mounted BLTouch mount with above
 * 0.9 Degree LDO Pancake Extruder Motor
-* Filament Sensor
+* Filament Sensor (Lerdge)
 
 ----------
 
