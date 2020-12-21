@@ -204,7 +204,8 @@
 #define EXPA1_07_PIN                       P1_19
 #define EXPA1_08_PIN                       P1_18
 #define EXPA1_09_PIN                       P0_28
-#define EXPA1_10_PIN                       P1_30
+#define EXPA1_10_PIN                       //P1_30
+// Attempt to disable beeper
 
 #define EXPA2_03_PIN                       -1
 #define EXPA2_04_PIN                       P1_31
