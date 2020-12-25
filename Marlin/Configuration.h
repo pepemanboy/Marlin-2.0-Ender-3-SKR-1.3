@@ -503,10 +503,10 @@
     //#define DEFAULT_Ki   1.08
     //#define DEFAULT_Kd 114.00
 
-    // My own PID Autotuned setup with 100% Blower fan and Silicone Sock.  Stock Hotend.
-    #define DEFAULT_Kp 19.56
-    #define DEFAULT_Ki 1.03
-    #define DEFAULT_Kd 92.40
+    // My own PID Autotuned setup with 60% Blower fan and Silicone Sock.  Stock Hotend with replacement gold heatblock.
+    #define DEFAULT_Kp 26.89
+    #define DEFAULT_Ki 2.26
+    #define DEFAULT_Kd 80.01
   #endif
 #endif // PIDTEMP
 
