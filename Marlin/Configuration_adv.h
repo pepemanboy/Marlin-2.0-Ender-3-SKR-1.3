@@ -2510,7 +2510,7 @@
   #endif
 
   #if AXIS_IS_TMC(Y)
-    #define Y_CURRENT       630  // Switched to the Extruder Motor Stepper (Creality 42-40) with 1.0a max.
+    #define Y_CURRENT       530  
     #define Y_CURRENT_HOME  Y_CURRENT
     #define Y_MICROSTEPS     16
     #define Y_RSENSE          0.11
