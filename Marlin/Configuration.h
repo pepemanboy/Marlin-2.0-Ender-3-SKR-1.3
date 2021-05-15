@@ -1073,11 +1073,11 @@
 #define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_FEEDRATE (166*60)
+#define XY_PROBE_FEEDRATE (133*60)
 // Was 200*60 before 2.0.8, trying a slower feedrate for quietness.
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-#define Z_PROBE_FEEDRATE_FAST (4*60)
+#define Z_PROBE_FEEDRATE_FAST (30*60)
 
 // Feedrate (mm/min) for the "accurate" probe of each point
 #define Z_PROBE_FEEDRATE_SLOW (Z_PROBE_FEEDRATE_FAST / 2)
@@ -1251,7 +1251,7 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -2   // New Min pos with sensorless endstops
-#define Y_MIN_POS -62   // New Min pos with sensorless endstops
+#define Y_MIN_POS -11.5   // New Min pos with sensorless endstops
 #define Z_MIN_POS 0
 //#define X_MAX_POS X_BED_SIZE
 #define X_MAX_POS 250  // Printer clunks at 257mm
