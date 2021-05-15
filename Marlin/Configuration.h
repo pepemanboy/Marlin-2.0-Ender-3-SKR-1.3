@@ -1073,7 +1073,7 @@
 #define PROBING_MARGIN 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_FEEDRATE (133*60)
+#define XY_PROBE_FEEDRATE (166*60)
 // Was 200*60 before 2.0.8, trying a slower feedrate for quietness.
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
@@ -1251,7 +1251,7 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS -2   // New Min pos with sensorless endstops
-#define Y_MIN_POS -3   // New Min pos with sensorless endstops
+#define Y_MIN_POS -62   // New Min pos with sensorless endstops
 #define Z_MIN_POS 0
 //#define X_MAX_POS X_BED_SIZE
 #define X_MAX_POS 250  // Printer clunks at 257mm
@@ -1610,7 +1610,7 @@
 
 // Homing speeds (mm/min)
 #define HOMING_FEEDRATE_MM_M { (20*60), (20*60), (30*60) }
-// As Per Ilya Tsaryuk who did testing with Bltouch clone and homing feedrate accuracy. (30*60 for Z homing fedrate)
+// As Per Ilya Tsaryuk who did testing with Bltouch clone and homing feedrate accuracy. (30*60 for Z homing feedrate)
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
