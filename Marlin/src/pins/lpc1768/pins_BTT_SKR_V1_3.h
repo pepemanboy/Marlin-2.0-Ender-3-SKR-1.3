@@ -92,8 +92,7 @@
 // Filament Runout Sensor
 //
 #ifndef FIL_RUNOUT_PIN
-//#define FIL_RUNOUT_PIN   P1_28 //X+ Endstop
-  #define FIL_RUNOUT_PIN   P1_24 //Z+ Endstop
+  #define FIL_RUNOUT_PIN   P1_28 
 #endif
 
 //
