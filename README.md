@@ -18,7 +18,7 @@ Other Known issues is that the BLTouch probing matrix is centered too far back o
 
 This fork is meant for my Creality Ender-3 Modded machine with these properties/mods
 
-* Early Ender-3, Offset wheels, single sided Y tensioner, glued on build sheet
+* Early Ender-3
 * Stock Display (CR10STOCKDISPLAY) using single ribbon cable
 * SKR V1.3 Mainboard (32-bit)
 * Bigtreetech TMC2209 V1.2 on X, Y, Z and E via UART in Stealthchop
