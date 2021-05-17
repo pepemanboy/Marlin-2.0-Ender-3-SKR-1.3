@@ -54,7 +54,6 @@
 #include "../../module/printcounter.h"
 #include "../../libs/duration_t.h"
 #include "../../HAL/shared/Delay.h"
-#include "../../MarlinCore.h"
 #include "../../sd/cardreader.h"
 
 #if ENABLED(PRINTCOUNTER)
@@ -106,6 +105,9 @@ namespace ExtUI {
     uint8_t printer_killed : 1;
     #if ENABLED(JOYSTICK)
       uint8_t jogging : 1;
+    #endif
+    #if ENABLED(SDSUPPORT)
+      uint8_t was_sd_printing : 1;
     #endif
   } flags;
 
@@ -1015,17 +1017,27 @@ namespace ExtUI {
   void setUserConfirmed() { TERN_(HAS_RESUME_CONTINUE, wait_for_user = false); }
 
   void printFile(const char *filename) {
-    TERN(SDSUPPORT, card.openAndPrintFile(filename), UNUSED(filename));
+    UNUSED(filename);
+    TERN_(SDSUPPORT, card.openAndPrintFile(filename));
   }
 
   bool isPrintingFromMediaPaused() {
-    return TERN0(SDSUPPORT, isPrintingFromMedia() && printingIsPaused());
+    return TERN0(SDSUPPORT, isPrintingFromMedia() && !IS_SD_PRINTING());
   }
 
-  bool isPrintingFromMedia() { return IS_SD_PRINTING(); }
+  bool isPrintingFromMedia() {
+    #if ENABLED(SDSUPPORT)
+      // Account for when IS_SD_PRINTING() reports the end of the
+      // print when there is still SD card data in the planner.
+      flags.was_sd_printing = card.isFileOpen() || (flags.was_sd_printing && commandsInQueue());
+      return flags.was_sd_printing;
+    #else
+      return false;
+    #endif
+  }
 
   bool isPrinting() {
-    return commandsInQueue() || isPrintingFromMedia() || printJobOngoing() || printingIsPaused();
+    return (commandsInQueue() || isPrintingFromMedia() || TERN0(SDSUPPORT, IS_SD_PRINTING())) || print_job_timer.isRunning() || print_job_timer.isPaused();
   }
 
   bool isPrintingPaused() {
