@@ -1269,7 +1269,7 @@
 #define X_MAX_POS 250  // Printer clunks at 257mm
 //#define Y_MAX_POS Y_BED_SIZE
 #define Y_MAX_POS 235  // Printer clunks at 236mm
-#define Z_MAX_POS 270  // With new solid spacers, have 275 at current config.  Set 270 to be safe.
+#define Z_MAX_POS 258  // Printer clunks at z = 259mm.
 
 /**
  * Software Endstops
