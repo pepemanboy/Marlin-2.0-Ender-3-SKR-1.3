@@ -1,5 +1,7 @@
 **Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
 
+June 4, 2022 - Changed to Screw-In stud thermistor (104GT-2) and copper block.
+
 December 20, 2020 - Changed TriangleLabs Titan to TriangleLabs BMG
 
 October 2019 - Changed drivers out to TMC2209.
