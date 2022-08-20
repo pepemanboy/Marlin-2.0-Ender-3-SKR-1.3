@@ -20,13 +20,20 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 
 * Early Ender-3
 * Stock Display (CR10STOCKDISPLAY) using single ribbon cable
-* SKR V1.3 Mainboard (32-bit)
+* Bigreetech SKR V1.3 Mainboard (32-bit)
 * Bigtreetech TMC2209 V1.2 on X, Y, Z and E via UART in Stealthchop
 * Stock Creality Hotend with [TH3D Titanium All-Metal Heatbreak](https://www.th3dstudio.com/product/tough-titanium-heatbreak-for-creality-machines-tough-dual-hotend/)
+* [Polisi3D Copper Heatblock](https://www.amazon.com/Temperature-Plated-Extruder-Creality-Printer/dp/B08NVTJM4S)
+* [Trianglelab Swiss MK8 Hardened Steel Nozzle] (https://www.aliexpress.com/item/2255800032773797.html)
+* Screw-In stud thermistor (104GT-2)
 * [Creality Direct Drive for Stock/Microswiss Hotend and BMG](https://www.thingiverse.com/thing:3781222)
+* [Trianglelab BMG 2.0](https://www.aliexpress.com/item/3256803279640594.html)
 * Original BLTouch V3.0 using the left-side mounted BLTouch mount with above
-* 0.9 Degree LDO Pancake Extruder Motor
-* Filament Sensor (Lerdge)
+* [0.9 Degree LDO Pancake Extruder Motor from Printed Solid](https://www.printedsolid.com/products/ldo-nema-17-motor-pancake-ldo-42sth25-1404)
+* Filament Runout Sensor (Lerdge)
+* [Silicone Bed Spring Replacements] (https://www.amazon.com/FYSETC-Printer-Heat-Resistant-Silicone-Creality/dp/B07M66KJNX)
+* [FYSETC POM Lead Screw Nut] (https://www.amazon.com/4-Pack-Printer-Trapezoid-Creality-Ender-3/dp/B0888DWRW8)
+* [Arctic Silent 80mm PSU Fan] (https://www.amazon.com/ARCTIC-Silent-inaudible-Configuration-ACFAN00245A/dp/B08WHMP2CD)
 
 ----------
 
