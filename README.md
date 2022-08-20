@@ -35,6 +35,22 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 * [FYSETC POM Lead Screw Nut](https://www.amazon.com/4-Pack-Printer-Trapezoid-Creality-Ender-3/dp/B0888DWRW8)
 * [Arctic Silent 80mm PSU Fan](https://www.amazon.com/ARCTIC-Silent-inaudible-Configuration-ACFAN00245A/dp/B08WHMP2CD)
 * Gates Belts on X and Y
+* Double Magnetic Bed - Magnetic Sheet + [9 Neodynium N52 Magnets](https://www.aliexpress.com/item/2251832763110298.html)
+
+
+Other Printed Mods:
+* Belt Parallelism
+  * [Y Axis Tensioner](https://www.thingiverse.com/thing:3097972)
+  * [X Axis Tensioner with Straightned Belt Path](https://www.thingiverse.com/thing:3537042)
+  * [X Belt Straigthener](https://www.thingiverse.com/thing:3288949)
+  * [Y Axis Idler](https://www.thingiverse.com/thing:3136428)
+* [80mm PSU Fan Cover](https://www.thingiverse.com/thing:3437190)
+
+Miscelleanous Accessories:
+* TheKiinngg Ender Textured Bed
+* Glass Bed
+* Double Sided Smooth PEI and BuildTak-Type Spring Steel Bed
+* Spare Trianglelab Titan Extruder
 
 ----------
 
