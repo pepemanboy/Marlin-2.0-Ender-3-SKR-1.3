@@ -31,9 +31,9 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 * Original BLTouch V3.0 using the left-side mounted BLTouch mount with above
 * [0.9 Degree LDO Pancake Extruder Motor from Printed Solid](https://www.printedsolid.com/products/ldo-nema-17-motor-pancake-ldo-42sth25-1404)
 * Filament Runout Sensor (Lerdge)
-* [Silicone Bed Spring Replacements] (https://www.amazon.com/FYSETC-Printer-Heat-Resistant-Silicone-Creality/dp/B07M66KJNX)
-* [FYSETC POM Lead Screw Nut] (https://www.amazon.com/4-Pack-Printer-Trapezoid-Creality-Ender-3/dp/B0888DWRW8)
-* [Arctic Silent 80mm PSU Fan] (https://www.amazon.com/ARCTIC-Silent-inaudible-Configuration-ACFAN00245A/dp/B08WHMP2CD)
+* [Silicone Bed Spring Replacements](https://www.amazon.com/FYSETC-Printer-Heat-Resistant-Silicone-Creality/dp/B07M66KJNX)
+* [FYSETC POM Lead Screw Nut](https://www.amazon.com/4-Pack-Printer-Trapezoid-Creality-Ender-3/dp/B0888DWRW8)
+* [Arctic Silent 80mm PSU Fan](https://www.amazon.com/ARCTIC-Silent-inaudible-Configuration-ACFAN00245A/dp/B08WHMP2CD)
 
 ----------
 
