@@ -24,7 +24,7 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 * Bigtreetech TMC2209 V1.2 on X, Y, Z and E via UART in Stealthchop
 * Stock Creality Hotend with [TH3D Titanium All-Metal Heatbreak](https://www.th3dstudio.com/product/tough-titanium-heatbreak-for-creality-machines-tough-dual-hotend/)
 * [Polisi3D Copper Heatblock](https://www.amazon.com/Temperature-Plated-Extruder-Creality-Printer/dp/B08NVTJM4S)
-* [Trianglelab Swiss MK8 Hardened Steel Nozzle] (https://www.aliexpress.com/item/2255800032773797.html)
+* [Trianglelab Swiss MK8 Hardened Steel Nozzle](https://www.aliexpress.com/item/2255800032773797.html)
 * Screw-In stud thermistor (104GT-2)
 * [Creality Direct Drive for Stock/Microswiss Hotend and BMG](https://www.thingiverse.com/thing:3781222)
 * [Trianglelab BMG 2.0](https://www.aliexpress.com/item/3256803279640594.html)
