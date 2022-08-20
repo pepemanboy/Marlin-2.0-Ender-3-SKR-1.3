@@ -34,6 +34,7 @@ This fork is meant for my Creality Ender-3 Modded machine with these properties/
 * [Silicone Bed Spring Replacements](https://www.amazon.com/FYSETC-Printer-Heat-Resistant-Silicone-Creality/dp/B07M66KJNX)
 * [FYSETC POM Lead Screw Nut](https://www.amazon.com/4-Pack-Printer-Trapezoid-Creality-Ender-3/dp/B0888DWRW8)
 * [Arctic Silent 80mm PSU Fan](https://www.amazon.com/ARCTIC-Silent-inaudible-Configuration-ACFAN00245A/dp/B08WHMP2CD)
+* Gates Belts on X and Y
 
 ----------
 
