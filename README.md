@@ -2,9 +2,9 @@
 
 June 4, 2022 - Changed to Screw-In stud thermistor (104GT-2) and copper block.
 
-December 20, 2020 - Changed TriangleLabs Titan to TriangleLabs BMG
+December 20, 2020 - Changed TriangleLabs Titan to TriangleLabs BMG.  Used this extruder mod: https://www.thingiverse.com/thing:3781222
 
-October 2019 - Changed drivers out to TMC2209.
+October 2019 - Changed drivers out to TMC2209.  Setup and tuned Sensorless homing sensitivity
 
 5/20/2019 - Been tweaking this a bit.  I played with the accelerations, but have decided just to stick with and copy the Prusa MK3 default acceleration settings.  I have enabled a hidden BLTouch HighSpeed mode, gone aggressive with BLTouch probing.  Also changed from Petsfang Titan Direct to this one: https://www.thingiverse.com/thing:3594559, and went with a 0.9 Deg LDO Extruder motor
 
