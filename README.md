@@ -1,5 +1,7 @@
-**Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0**
+# Summary
+Marlin 2.0 Bugfix with changes for my Modded Ender-3 with SKR V1.3 and BLTouch v3.0.
 
+# Changelist
 June 4, 2022 - Changed to Screw-In stud thermistor (104GT-2) and copper block.
 
 December 20, 2020 - Changed TriangleLabs Titan to TriangleLabs BMG.  Used this extruder mod: https://www.thingiverse.com/thing:3781222
@@ -16,7 +18,8 @@ Fork is pretty much working and good to go, with exception that I want to center
 4/5/2019 - Fork is working. Nozzle Fan is not working but need to test if its a hardware problem.
 Other Known issues is that the BLTouch probing matrix is centered too far back on the bed, pretty close to the back edge.  Has something to do with home offsets or X/Y Minimum.
 
-This fork is meant for my Creality Ender-3 Modded machine with these properties/mods
+# Printer mods
+This fork is meant for my Creality Ender-3 Modded machine with these properties/mods (Note: I bought the printer from [TallDonkey](https://github.com/talldonkey/Marlin-2.0-Ender-3-SKR-1.3) and he did all these cool mods!):
 
 * Early Ender-3
 * Stock Display (CR10STOCKDISPLAY) using single ribbon cable
@@ -52,11 +55,15 @@ Miscelleanous Accessories:
 * Double Sided Smooth PEI and BuildTak-Type Spring Steel Bed
 * Spare Trianglelab Titan Extruder
 
-----------
+# How to build
+1) Install [VSCode + Platformio + Auto Build Marlin](https://marlinfw.org/docs/basics/install_platformio_vscode.html).
+2) In `Auto Build Marlin`, build code. It will [generate](https://gulfcoast-robotics.com/pages/bigtreetech-skr-mini-e3-marlin-2-0-firmware) a `firmware.bin` file.
+3) Copy this file to a micro SD card (Note: SD card must have an allocation size of 4096 bytes. If the SD card is too big, you will need to create a smaller partition in the card).
+4) Insert the micro SD card to the 3D-Printer and reboot it.
 
-**This firmware is NOT maintained by Marlin. This is meant to be a personal fork/branch to contain my specific 3d printer configuration that will never be merged back upstream, but rather provides me the ability to make my own custom changes while merging in upstream Marlin 2.0.x updates**
+# Disclaimer
+This firmware is NOT maintained by Marlin. This is meant to be a personal fork/branch to contain my specific 3d printer configuration that will never be merged back upstream, but rather provides me the ability to make my own custom changes while merging in upstream Marlin 2.0.x updates.
 
-----------
-
-**THIS IS PROVIDED UNDER THE GPL V3 LICENSE.
-PROVIDED AS-IS. NO SUPPORT OR WARRANTY IS PROVIDED.**
+# License
+THIS IS PROVIDED UNDER THE GPL V3 LICENSE.
+PROVIDED AS-IS. NO SUPPORT OR WARRANTY IS PROVIDED.
